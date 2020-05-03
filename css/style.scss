@@ -305,7 +305,7 @@ pre {
   float: left;
   text-transform: uppercase;
   font-family: "Source Sans Pro";
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 300;
   letter-spacing: 2px;
   text-indent: 2px;
@@ -517,6 +517,7 @@ pre {
   text-align: center;
   font-family: "PT Sans";
   font-weight: 900;
+  margin-bottom: 5px;
   @include media-query($on-laptop) {
     font-size: 36px;
   }
