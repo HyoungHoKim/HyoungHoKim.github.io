@@ -9,8 +9,8 @@
 title: HH.CODING
 email: dkdemfp2@naver.com
 description: VR and Unity and many other tries..
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://hyounghokim.github.io/hhk.github.com/" # the base hostname & protocol for your site
+baseurl: "/hhk.github.com" # the subpath of your site, e.g. /blog
+url: "https://hyounghokim.github.io/" # the base hostname & protocol for your site
 twitter_username: HyoungHoKim
 github_username:  HyoungHoKim
 paginate: 5
