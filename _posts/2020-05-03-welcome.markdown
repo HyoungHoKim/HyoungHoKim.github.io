@@ -2,9 +2,11 @@
 layout: post
 title:  "Welcome to HH.Coding!"
 date:   2020-05-03 20:40:31 +0900
-categories: jekyll update
+categories: ManagerComment
 ---
-안녕하세요! 개인적인 코딩 연습 및 작업물을 업로드할려고 만든 블로그입니다.
+안녕하세요!
+
+개인적인 코딩 연습 및 작업물을 업로드할려고 만든 블로그입니다.
 
 주로 제가 개발하는 VR 콘텐츠에 대한 것들을 올릴 예정입니다.
 
