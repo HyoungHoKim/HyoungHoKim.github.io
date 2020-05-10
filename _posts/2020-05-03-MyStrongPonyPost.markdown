@@ -1,10 +1,16 @@
 ---
 layout: post
-title:  "Test to Blog Post"
+title:  "My Strong Pony"
 date:   2020-05-10 22:15:31 +0900
 categories: VR
 ---
-<h1> My-Strong-Pony </h1>
+
+
+My-Strong-Pony는 중세 기사를 컨셉으로한 VR 콘텐츠 입니다.
+VR과 Sym4D를 이용해 좀 더 현장감 있는 말타기와 전투에 초점을 두었고,
+추가적으로 Photon2를 이용해 다른 플레이어와 1:1 멀티 PVP 전투를 할 수 있도록 했습니다.
+
+### 개요
 
 - [Github Link](https://github.com/HyoungHoKim/MyStringPony_OnlyScript)
 - 메디치 어트랙션 기반 VR 개발자 양성 과정 어트랙션 미니 프로젝트
@@ -15,10 +21,6 @@ categories: VR
 - 자세한 사항은 아래 발표 문서 참조
 - 프로젝트에 여러 유료 에셋를 사용했기 때문에, 저작권 문제로 직접 짠 코드만을 공개
 
-## 소개
-My-Strong-Pony는 중세 기사를 컨셉으로한 VR 콘텐츠 입니다.
-VR과 Sym4D를 이용해 좀 더 현장감 있는 말타기와 전투에 초점을 두었고,
-추가적으로 Photon2를 이용해 다른 플레이어와 1:1 멀티 PVP 전투를 할 수 있도록 했습니다.
 
 ### 조작법
 컨트롤러 위치에 따라 전진하고 방향을 전환하는 방법을 사용했습니다.
@@ -27,13 +29,15 @@ VR과 Sym4D를 이용해 좀 더 현장감 있는 말타기와 전투에 초점�
 * 정지 : 양손의 컨트롤러를 HMD쪽으로 모두 올리면 정지
 * 공격 : 오른쪽 컨트롤러의 트리거를 당기면 창이 생성, 적을 찌르면 공격이 된다.
 
+
 ### 게임 구성
 싱글모드
 * 블루팀과 레드팀으로 나눠 적 진영의 대장 기수(5명)를 잡으면 승리
 * 플레이어 아래 부분에 UI를 통해 적팀과 플레이어 팀의 현황을 알 수 있음
 * 플레이어가 공격 받아 죽으면 다시 리스폰, 승리 조건 달성까지 반복
 
-플레이 영상
+
+### 플레이 영상
 
 [![Video Label](http://img.youtube.com/vi/pWy0xrqDPPo/0.jpg)](https://youtu.be/pWy0xrqDPPo?t=0s)
 
