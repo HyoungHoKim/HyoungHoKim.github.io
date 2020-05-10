@@ -2,7 +2,7 @@
 layout: page
 title : About
 permalink: /about/
-url: 'https://hyounghokim.github.io/hhk.github.com/about'
+url: 'https://hyounghokim.github.io/hhk.github.com'
 baseurl: '/about'
 ---
 
