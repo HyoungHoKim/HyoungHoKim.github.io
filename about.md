@@ -2,8 +2,6 @@
 layout: page
 title : About
 permalink: /about/
-url: 'https://hyounghokim.github.io/hhk.github.com'
-baseurl: '/about'
 ---
 
 <h2>Gravity</h2>
