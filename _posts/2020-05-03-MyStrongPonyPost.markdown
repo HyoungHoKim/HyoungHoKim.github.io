@@ -13,6 +13,7 @@ VR과 Sym4D를 이용해 좀 더 현장감 있는 말타기와 전투에 초점�
 ### 개요
 
 - [Github Link](https://github.com/HyoungHoKim/MyStringPony_OnlyScript)
+- [스팀 출시 링크](https://store.steampowered.com/app/1295670/My_Strong_Horse)
 - 메디치 어트랙션 기반 VR 개발자 양성 과정 어트랙션 미니 프로젝트
 - 개발 기간 : 2020.03.30 ~ 2020.04.16
 - 장비 : VIVE PRO, Sym4D
