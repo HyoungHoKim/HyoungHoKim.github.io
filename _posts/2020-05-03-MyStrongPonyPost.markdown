@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "My Strong Pony"
+title:  "My Strong Horse"
 date:   2020-05-10 22:15:31 +0900
 categories: VR
 ---
@@ -9,9 +9,10 @@ categories: VR
 My-Strong-Pony는 중세 기사를 컨셉으로한 VR 콘텐츠 입니다.
 VR과 Sym4D를 이용해 좀 더 현장감 있는 말타기와 전투에 초점을 두었고,
 추가적으로 Photon2를 이용해 다른 플레이어와 1:1 멀티 PVP 전투를 할 수 있도록 했습니다.
+### 트레일러 영상
+[![Video Label](http://img.youtube.com/vi/kox2td_puWE/0.jpg)](https://youtu.be/kox2td_puWE?t=0s)
 
 ### 개요
-
 - [Github Link](https://github.com/HyoungHoKim/MyStringPony_OnlyScript)
 - [스팀 출시 링크](https://store.steampowered.com/app/1295670/My_Strong_Horse)
 - 메디치 어트랙션 기반 VR 개발자 양성 과정 어트랙션 미니 프로젝트
@@ -32,23 +33,24 @@ VR과 Sym4D를 이용해 좀 더 현장감 있는 말타기와 전투에 초점�
 
 
 ### 게임 구성
-싱글모드
+##### 싱글모드
 * 블루팀과 레드팀으로 나눠 적 진영의 대장 기수(5명)를 잡으면 승리
 * 플레이어 아래 부분에 UI를 통해 적팀과 플레이어 팀의 현황을 알 수 있음
 * 플레이어가 공격 받아 죽으면 다시 리스폰, 승리 조건 달성까지 반복
 
+###### 플레이 영상
 
-### 플레이 영상
+[![Video Label](http://img.youtube.com/vi/TqClSBWs4i8/0.jpg)](https://youtu.be/TqClSBWs4i8?t=0s)
 
-[![Video Label](http://img.youtube.com/vi/pWy0xrqDPPo/0.jpg)](https://youtu.be/pWy0xrqDPPo?t=0s)
-
-멀티모드
+##### 멀티모드
 * 양 플레이어 중 먼저 죽이는 사람이 승리
 * 한 쪽 승리 시 두 플레이어 모두 로비로 이동, 재대결 및 싱글 모드로 플레이 가능
 
-플레이 영상
+###### 플레이 영상
 
 [![Video Label](http://img.youtube.com/vi/Lt9TsjLDIJY/0.jpg)](https://youtu.be/Lt9TsjLDIJY?t=0s)
+
+### 스크린 샷
 
 ### 발표 문서
 [참조 링크](https://drive.google.com/file/d/1ptYsvg2h5BnRkOHgK3rtUCUDyxq-LADO/view?usp=sharing)
