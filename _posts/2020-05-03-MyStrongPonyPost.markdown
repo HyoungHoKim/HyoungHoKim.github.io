@@ -51,6 +51,11 @@ VR과 Sym4D를 이용해 좀 더 현장감 있는 말타기와 전투에 초점�
 [![Video Label](http://img.youtube.com/vi/Lt9TsjLDIJY/0.jpg)](https://youtu.be/Lt9TsjLDIJY?t=0s)
 
 ### 스크린 샷
+![1](/assets/1.png)
+![2](/assets/2.png)
+![3](/assets/3.png)
+![4](/assets/4.png)
+![5](/assets/5.png)
 
 ### 발표 문서
 [참조 링크](https://drive.google.com/file/d/1ptYsvg2h5BnRkOHgK3rtUCUDyxq-LADO/view?usp=sharing)
