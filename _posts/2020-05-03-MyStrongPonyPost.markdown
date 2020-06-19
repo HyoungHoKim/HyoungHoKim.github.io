@@ -10,7 +10,7 @@ My-Strong-Pony는 중세 기사를 컨셉으로한 VR 콘텐츠 입니다.
 VR과 Sym4D를 이용해 좀 더 현장감 있는 말타기와 전투에 초점을 두었고,
 추가적으로 Photon2를 이용해 다른 플레이어와 1:1 멀티 PVP 전투를 할 수 있도록 했습니다.
 ### 트레일러 영상
-[![Video Label](http://img.youtube.com/vi/kox2td_puWE/0.jpg)](https://youtu.be/kox2td_puWE?t=0s)
+[![Video Label](http://img.youtube.com/vi/kox2td_puWE/0.jpg)](https://youtu.be/kox2td_puWE?t=0s![2](/assets/2.PNG)![3](/assets/3.PNG)![1](/assets/1.PNG)![5](/assets/5.PNG)![4](/assets/4.PNG))
 
 ### 개요
 - [Github Link](https://github.com/HyoungHoKim/MyStringPony_OnlyScript)
@@ -31,14 +31,11 @@ VR과 Sym4D를 이용해 좀 더 현장감 있는 말타기와 전투에 초점�
 * 정지 : 양손의 컨트롤러를 HMD쪽으로 모두 올리면 정지
 * 공격 : 오른쪽 컨트롤러의 트리거를 당기면 창이 생성, 적을 찌르면 공격이 된다.
 
-
 ### 게임 구성
 ##### 싱글모드
 * 블루팀과 레드팀으로 나눠 적 진영의 대장 기수(5명)를 잡으면 승리
 * 플레이어 아래 부분에 UI를 통해 적팀과 플레이어 팀의 현황을 알 수 있음
 * 플레이어가 공격 받아 죽으면 다시 리스폰, 승리 조건 달성까지 반복
-
-###### 플레이 영상
 
 [![Video Label](http://img.youtube.com/vi/TqClSBWs4i8/0.jpg)](https://youtu.be/TqClSBWs4i8?t=0s)
 
@@ -46,11 +43,16 @@ VR과 Sym4D를 이용해 좀 더 현장감 있는 말타기와 전투에 초점�
 * 양 플레이어 중 먼저 죽이는 사람이 승리
 * 한 쪽 승리 시 두 플레이어 모두 로비로 이동, 재대결 및 싱글 모드로 플레이 가능
 
-###### 플레이 영상
 
 [![Video Label](http://img.youtube.com/vi/Lt9TsjLDIJY/0.jpg)](https://youtu.be/Lt9TsjLDIJY?t=0s)
 
 ### 스크린 샷
+
+![1](/assets/1.png)
+![2](/assets/2.png)
+![3](/assets/3.png)
+![4](/assets/4.png)
+![5](/assets/5.png)
 
 ### 발표 문서
 [참조 링크](https://drive.google.com/file/d/1ptYsvg2h5BnRkOHgK3rtUCUDyxq-LADO/view?usp=sharing)
