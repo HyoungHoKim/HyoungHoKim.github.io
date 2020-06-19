@@ -45,11 +45,15 @@ VR과 Sym4D를 이용해 좀 더 현장감 있는 말타기와 전투에 초점�
 
 ### 스크린 샷
 
-<img src="https://user-images.githubusercontent.com/49055264/83052635-8f665200-a08a-11ea-88d3-2d87a9d64120.PNG" width="450px" height="300px"><br/>
-<img src="https://user-images.githubusercontent.com/49055264/83052648-942b0600-a08a-11ea-8c03-2e30a07a5da9.PNG" width="450px" height="300px"><br/>
-<img src="https://user-images.githubusercontent.com/49055264/83052661-97be8d00-a08a-11ea-928f-e67f03b993f9.PNG" width="450px" height="300px"><br/>
-<img src="https://user-images.githubusercontent.com/49055264/83052667-9ab97d80-a08a-11ea-9e87-3a557c9779e6.PNG" width="450px" height="300px"><br/>
-<img src="https://user-images.githubusercontent.com/49055264/83052680-9e4d0480-a08a-11ea-92af-21d53f6e39f4.PNG" width="450px" height="300px"><br/>
+<img src="https://user-images.githubusercontent.com/49055264/83052635-8f665200-a08a-11ea-88d3-2d87a9d64120.PNG" style="float: left;  margin-right: 20px; margin-bottom: 10px" width="450px" height="300px"><br/>
+
+<img src="https://user-images.githubusercontent.com/49055264/83052648-942b0600-a08a-11ea-8c03-2e30a07a5da9.PNG" style="float: left;  margin-right: 20px; margin-bottom: 10px" width="450px" height="300px"><br/>
+
+<img src="https://user-images.githubusercontent.com/49055264/83052661-97be8d00-a08a-11ea-928f-e67f03b993f9.PNG" style="float: left;  margin-right: 20px; margin-bottom: 10px" width="450px" height="300px"><br/>
+
+<img src="https://user-images.githubusercontent.com/49055264/83052667-9ab97d80-a08a-11ea-9e87-3a557c9779e6.PNG" style="float: left;  margin-right: 20px; margin-bottom: 10px" width="450px" height="300px"><br/>
+
+<img src="https://user-images.githubusercontent.com/49055264/83052680-9e4d0480-a08a-11ea-92af-21d53f6e39f4.PNG" style="float: left;  margin-right: 20px; margin-bottom: 10px" width="450px" height="300px"><br/>
 
 
 ### 세부문서
