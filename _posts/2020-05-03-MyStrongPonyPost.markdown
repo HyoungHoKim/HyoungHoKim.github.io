@@ -13,7 +13,7 @@ VR과 Sym4D를 이용해 좀 더 현장감 있는 말타기와 전투에 초점�
 [![Video Label](http://img.youtube.com/vi/kox2td_puWE/0.jpg)](https://youtu.be/kox2td_puWE?t=0s![2](/assets/2.PNG)![3](/assets/3.PNG)![1](/assets/1.PNG)![5](/assets/5.PNG)![4](/assets/4.PNG))
 
 ### 개요
-- [Github Link](https://github.com/HyoungHoKim/MyStringPony_OnlyScript)
+- [Github Link](https://github.com/HyoungHoKim/MyStringPony_OnlyScript) : 프로젝트에 여러 유료 에셋를 사용했기 때문에, 저작권 문제로 직접 짠 코드만을 공개
 - [스팀 출시 링크](https://store.steampowered.com/app/1295670/My_Strong_Horse)
 - 메디치 어트랙션 기반 VR 개발자 양성 과정 어트랙션 미니 프로젝트
 - 개발 기간 : 2020.03.30 ~ 2020.04.16
@@ -21,8 +21,6 @@ VR과 Sym4D를 이용해 좀 더 현장감 있는 말타기와 전투에 초점�
 - 팀명 : Horslic
 - 팀원 : 박철우(팀장, AI, 맵 디자인, UI), 연인석(플레이어 이동 및 공격, Sym4D), 김형호(플레이어 IK 연동, 네트워크)
 - 자세한 사항은 아래 발표 문서 참조
-- 프로젝트에 여러 유료 에셋를 사용했기 때문에, 저작권 문제로 직접 짠 코드만을 공개
-
 
 ### 조작법
 컨트롤러 위치에 따라 전진하고 방향을 전환하는 방법을 사용했습니다.
@@ -43,7 +41,6 @@ VR과 Sym4D를 이용해 좀 더 현장감 있는 말타기와 전투에 초점�
 * 양 플레이어 중 먼저 죽이는 사람이 승리
 * 한 쪽 승리 시 두 플레이어 모두 로비로 이동, 재대결 및 싱글 모드로 플레이 가능
 
-
 [![Video Label](http://img.youtube.com/vi/Lt9TsjLDIJY/0.jpg)](https://youtu.be/Lt9TsjLDIJY?t=0s)
 
 ### 스크린 샷
@@ -54,5 +51,6 @@ VR과 Sym4D를 이용해 좀 더 현장감 있는 말타기와 전투에 초점�
 ![4](/assets/4.png)
 ![5](/assets/5.png)
 
-### 발표 문서
-[참조 링크](https://drive.google.com/file/d/1ptYsvg2h5BnRkOHgK3rtUCUDyxq-LADO/view?usp=sharing)
+
+### 세부문서
+* [참조 링크](https://drive.google.com/file/d/1ptYsvg2h5BnRkOHgK3rtUCUDyxq-LADO/view?usp=sharing)
