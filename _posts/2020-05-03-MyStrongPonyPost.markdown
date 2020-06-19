@@ -53,8 +53,7 @@ VR과 Sym4D를 이용해 좀 더 현장감 있는 말타기와 전투에 초점�
 
 <img src="https://user-images.githubusercontent.com/49055264/83052667-9ab97d80-a08a-11ea-9e87-3a557c9779e6.PNG" style="float: left;  margin-right: 20px; margin-bottom: 10px" width="450px" height="300px"><br/>
 
-<img src="https://user-images.githubusercontent.com/49055264/83052680-9e4d0480-a08a-11ea-92af-21d53f6e39f4.PNG" style="float: left;  margin-right: 20px; margin-bottom: 10px" width="450px" height="300px"><br/>
-
+<img src="https://user-images.githubusercontent.com/49055264/83052680-9e4d0480-a08a-11ea-92af-21d53f6e39f4.PNG" style="margin-right: 20px; margin-bottom: 10px" width="450px" height="300px"><br/>
 
 ### 세부문서
 * [참조 링크](https://drive.google.com/file/d/1ptYsvg2h5BnRkOHgK3rtUCUDyxq-LADO/view?usp=sharing)
