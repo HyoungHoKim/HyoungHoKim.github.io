@@ -52,8 +52,8 @@ body.light {
     }
 
     &:hover {
-        color: darken($l-link-color, 50%) !important;
-        border-color: darken($l-link-color, 15%);
+        color: #FFFFFF; //darken($l-link-color, 50%) !important;
+        border-color:  #FFFFFF; //darken($l-link-color, 15%);
     }
 
     &.page-link{
