@@ -10,7 +10,7 @@ My-Strong-Pony는 중세 기사를 컨셉으로한 VR 콘텐츠 입니다.
 VR과 Sym4D를 이용해 좀 더 현장감 있는 말타기와 전투에 초점을 두었고,
 추가적으로 Photon2를 이용해 다른 플레이어와 1:1 멀티 PVP 전투를 할 수 있도록 했습니다.
 ### 트레일러 영상
-[![Video Label](http://img.youtube.com/vi/kox2td_puWE/0.jpg)](https://youtu.be/kox2td_puWE?t=0s![2])
+[![Video Label](http://img.youtube.com/vi/kox2td_puWE/0.jpg)](https://youtu.be/kox2td_puWE?t=0s)
 
 ### 개요
 - [Github Link](https://github.com/HyoungHoKim/MyStringPony_OnlyScript) : 프로젝트에 여러 유료 에셋를 사용했기 때문에, 저작권 문제로 직접 짠 코드만을 공개
