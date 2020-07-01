@@ -344,4 +344,4 @@ public void Beam()
 			return Vector3.zero;
 		}
 	}
-    ```
+```
