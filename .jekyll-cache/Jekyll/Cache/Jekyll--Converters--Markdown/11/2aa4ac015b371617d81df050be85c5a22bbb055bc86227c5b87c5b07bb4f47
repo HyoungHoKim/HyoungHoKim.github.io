@@ -1,12 +1,13 @@
-I"$<p>My-Strong-Pony는 중세 기사를 컨셉으로한 VR 콘텐츠 입니다.
+I"_<p>#My Strong Horse</p>
+
+<p>My-Strong-Pony는 중세 기사를 컨셉으로한 VR 콘텐츠 입니다.
 VR과 Sym4D를 이용해 좀 더 현장감 있는 말타기와 전투에 초점을 두었고,
 추가적으로 Photon2를 이용해 다른 플레이어와 1:1 멀티 PVP 전투를 할 수 있도록 했습니다.</p>
-<h3 id="트레일러-영상">트레일러 영상</h3>
-<p><a href="https://youtu.be/kox2td_puWE?t=0s![2](/assets/2.PNG)![3](/assets/3.PNG)![1](/assets/1.PNG)![5](/assets/5.PNG)![4](/assets/4.PNG)"><img src="http://img.youtube.com/vi/kox2td_puWE/0.jpg" alt="Video Label" /></a></p>
 
 <h3 id="개요">개요</h3>
 <ul>
-  <li><a href="https://github.com/HyoungHoKim/MyStringPony_OnlyScript">Github Link</a> : 프로젝트에 여러 유료 에셋를 사용했기 때문에, 저작권 문제로 직접 짠 코드만을 공개</li>
+  <li>영상 링크 : https://www.youtube.com/watch?v=kox2td_puWE&amp;feature=youtu.be&amp;t=0s</li>
+  <li>Github Link : https://github.com/HyoungHoKim/MyStringPony_OnlyScript (프로젝트에 여러 유료 에셋를 사용했기 때문에, 저작권 문제로 직접 짠 코드만을 공개)</li>
   <li><a href="https://store.steampowered.com/app/1295670/My_Strong_Horse">스팀 출시 링크</a></li>
   <li>메디치 어트랙션 기반 VR 개발자 양성 과정 어트랙션 미니 프로젝트</li>
   <li>개발 기간 : 2020.03.30 ~ 2020.04.16</li>
@@ -31,9 +32,8 @@ VR과 Sym4D를 이용해 좀 더 현장감 있는 말타기와 전투에 초점�
   <li>블루팀과 레드팀으로 나눠 적 진영의 대장 기수(5명)를 잡으면 승리</li>
   <li>플레이어 아래 부분에 UI를 통해 적팀과 플레이어 팀의 현황을 알 수 있음</li>
   <li>플레이어가 공격 받아 죽으면 다시 리스폰, 승리 조건 달성까지 반복</li>
+  <li>영상 링크 : https://www.youtube.com/watch?v=TqClSBWs4i8&amp;feature=youtu.be&amp;t=0s</li>
 </ul>
-
-<p><a href="https://youtu.be/TqClSBWs4i8?t=0s"><img src="http://img.youtube.com/vi/TqClSBWs4i8/0.jpg" alt="Video Label" /></a></p>
 
 <h5 id="멀티모드">멀티모드</h5>
 <ul>

@@ -1,45 +1,51 @@
----
-layout: post
-title:  "Outcast"
-date:   2020-07-01 18:39:31 +0900
-categories: [PROJECTS, PROJECTS/VR]
----
+I"n2<h1 id="outcast">Outcast</h1>
 
-Outcast는 SF 잠입액션 컨셉의 VR 게임 콘텐츠입니다.
-잡입 액션을 좀 더 실감나게 구현하기 위해 이동방식과 벽타기, 적 시야탐지 등을 개발했고, 추가로 여러 재미요소로 장전 방식이나 도탄, 드론 등을 추가했습니다.
-개인적인 팀 사정으로 알파버전 중간에 중단했지만 나중에 더 나은 실력으로 다시 개발해보고 싶은 콘텐츠이기도 하고 많이 아쉬움이 남아서 기록 겸 동기부여 차원에서 작성했습니다.
+<p>Outcast는 SF 잠입액션 컨셉의 VR 게임 콘텐츠입니다.
+잡입 액션을 좀 더 실감나게 구현하기 위해 이동방식과 벽타기, 적 시야탐지 등을 개발했고, 추가로 여러 재미요소로 장전 방식이나 도탄, 드론 등을 추가했습니다.</p>
 
-### 트레일러 영상
-[![Video Label](http://img.youtube.com/vi/xBQvsTsA6IA/0.jpg)](https://youtu.be/xBQvsTsA6IA?t=0s)
+<h3 id="개요">개요</h3>
+<ul>
+  <li>트레일러 영상 링크 : http://img.youtube.com/vi/xBQvsTsA6IA</li>
+  <li>Github Link : https://github.com/HyoungHoKim/Outcast_OnlyScript (프로젝트에 여러 유료 에셋을 사용했기 때문에, 저작권 문제로 직접 짠 코드만을 공개)</li>
+  <li>메디치 어트랙션 기반 VR 개발자 양성 과정 최종 프로젝트</li>
+  <li>개발 기간 : 2020.04.28 ~ 2020.06.10</li>
+  <li>장비 : Vive Pro, Vive Tracker, KATVR mini</li>
+  <li>팀명 : 가산 메디치 연합</li>
+  <li>팀원 : 이경하(팀장, 에너미, 비주얼 이펙트, 어트랙션), 김형호(플레이어, 플레이어 IK, 특수 상호작용), 박철우(드론 AI, UI, 레벨 디자인)</li>
+</ul>
 
-### 개요
-- [Github Link](https://github.com/HyoungHoKim/Outcast_OnlyScript) : 프로젝트에 여러 유료 에셋을 사용했기 때문에, 저작권 문제로 직접 짠 코드만을 공개
-- 메디치 어트랙션 기반 VR 개발자 양성 과정 최종 프로젝트
-- 개발 기간 : 2020.04.28 ~ 2020.06.10
-- 장비 : Vive Pro, Vive Tracker, KATVR mini
-- 팀명 : 가산 메디치 연합
-- 팀원 : 이경하(팀장, 에너미, 비주얼 이펙트, 어트랙션), 김형호(플레이어, 플레이어 IK, 특수 상호작용), 박철우(드론 AI, UI, 레벨 디자인)
+<h3 id="조작법">조작법</h3>
+<ul>
+  <li>이동 : 트랙패드 터치 시 방향으로 기본 이동, 트랙패드를 누르고 방향 설정 후 떼면 향하는 위치로 빠르게 이동(텔레포트)</li>
+  <li>UI 및 플레이어, 드론 상호작용 : 트리거를 누르고 왼손을 좌에서 우로 흔들면 UI창 생성, 컨트롤러로 해당 UI 클릭 후 트리거 누르면 기능 실행</li>
+  <li>벽타기 : 벽에 컨트롤러를 대고 트리거를 누른 채 컨트롤러를 당김.</li>
+  <li>점프 : 양 손 컨트롤러 트리거를 누르고 위 아래로 힘껏 당김.</li>
+  <li>장전 : 총알을 다 쏘면 장전 홀더가 열림. 총알을 들어 해당 위치에 가져가면 홀더에 총알이 들어감. 그리고 홀더가 열린 방향으로 총을 돌리면 홀더가 닫히고 장전 완료.</li>
+</ul>
 
-### 조작법
-- 이동 : 트랙패드 터치 시 방향으로 기본 이동, 트랙패드를 누르고 방향 설정 후 떼면 향하는 위치로 빠르게 이동(텔레포트)
-- UI 및 플레이어, 드론 상호작용 : 트리거를 누르고 왼손을 좌에서 우로 흔들면 UI창 생성, 컨트롤러로 해당 UI 클릭 후 트리거 누르면 기능 실행
-- 벽타기 : 벽에 컨트롤러를 대고 트리거를 누른 채 컨트롤러를 당김.
-- 점프 : 양 손 컨트롤러 트리거를 누르고 위 아래로 힘껏 당김.
-- 장전 : 총알을 다 쏘면 장전 홀더가 열림. 총알을 들어 해당 위치에 가져가면 홀더에 총알이 들어감. 그리고 홀더가 열린 방향으로 총을 돌리면 홀더가 닫히고 장전 완료.  
+<h3 id="게임-구성">게임 구성</h3>
+<h5 id="싱글-모드">싱글 모드</h5>
+<ul>
+  <li>건물에 잡임, 적들을 죽이거나 잡임해서 해당 위치에 폭탄을 설치하면 완료</li>
+</ul>
 
-### 게임 구성
-##### 싱글 모드
-- 건물에 잡임, 적들을 죽이거나 잡임해서 해당 위치에 폭탄을 설치하면 완료
+<h5 id="멀티-모드">멀티 모드</h5>
+<ul>
+  <li>협동이나 PVP를 추가하려 했으나 시간상 문제로 무산</li>
+</ul>
 
-##### 멀티 모드
-- 협동이나 PVP를 추가하려 했으나 시간상 문제로 무산
+<h3 id="발표-문서">발표 문서</h3>
+<ul>
+  <li>참고 링크 : https://drive.google.com/file/d/1GspJt_RMxemqi3acA1pPHIJnRSlfREdh/view?usp=sharing</li>
+</ul>
 
-### 핵심 로직
-- 제가 개발한 로직만 정리했습니다.
+<h3 id="핵심-로직">핵심 로직</h3>
+<ul>
+  <li>제가 개발한 로직만 정리했습니다.</li>
+</ul>
 
-#### 벽타기 로직
-```
-private void ClimbPull()
+<h4 id="벽타기-로직">벽타기 로직</h4>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>private void ClimbPull()
    {
 
        // 태그를 이용 오를 수 있는 오브젝트를 구별
@@ -47,7 +53,7 @@ private void ClimbPull()
        {
            // canGrip : 핸드 콜리전에 닿으면 true
            // ClimbAction : 크리거 누르고 있으면 true
-           if (canGrip && ClimbAction.GetState(inputSource))
+           if (canGrip &amp;&amp; ClimbAction.GetState(inputSource))
            {
                bodyRb.isKinematic = true;
                bodyRb.useGravity = false;
@@ -68,11 +74,10 @@ private void ClimbPull()
            handPrevPos = this.transform.localPosition;
        }
    }
-```
+</code></pre></div></div>
 
-#### 텔레포트 포물선 로직
-```
-private void UpdatePath()
+<h4 id="텔레포트-포물선-로직">텔레포트 포물선 로직</h4>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>private void UpdatePath()
     {
         // 핸드 위치
         Transform startPos = isLeft == true ? lHandPos : rHandPos;
@@ -99,7 +104,7 @@ private void UpdatePath()
         lineVertexList.Add(linePos);
 
         // 리소스 사용을 줄이기 위해 정해진 버텍수까지만 그리도록
-        while (!Detected && vertexList.Count < maxVertexcount)
+        while (!Detected &amp;&amp; vertexList.Count &lt; maxVertexcount)
         {
 
             // 포물선이 뻣어나갈 다음 위치를 계산
@@ -118,8 +123,8 @@ private void UpdatePath()
             if (Physics.Linecast(pos, newPos, out hit))
             {
                 if (hit.transform.gameObject.tag == "GROUND"
-                    && hit.transform.position.y < this.transform.position.y + 1
-                    && hit.transform.position.y > this.transform.position.y - 1)
+                    &amp;&amp; hit.transform.position.y &lt; this.transform.position.y + 1
+                    &amp;&amp; hit.transform.position.y &gt; this.transform.position.y - 1)
                 {
                     groundDetected = true;
                 }
@@ -145,12 +150,12 @@ private void UpdatePath()
 
             if (groundDetected)
             {
-                positionMarker.GetComponent<MeshRenderer>().material = MatEnable;
+                positionMarker.GetComponent&lt;MeshRenderer&gt;().material = MatEnable;
             }
             else
             {
                 groundPos = this.transform.position;
-                positionMarker.GetComponent<MeshRenderer>().material = MatInvaild;
+                positionMarker.GetComponent&lt;MeshRenderer&gt;().material = MatInvaild;
             }
         }
 
@@ -160,11 +165,10 @@ private void UpdatePath()
     }
 
 }
-```
+</code></pre></div></div>
 
-#### 도탄 로직
-```
-public void Beam()
+<h4 id="도탄-로직">도탄 로직</h4>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>public void Beam()
    {
 
        // 도탄 이펙트를 아직 만들지 않은 경우 만듭니다. 라인 렌더러를 사용
@@ -174,7 +178,7 @@ public void Beam()
            beamGO.transform.parent = transform;
        }
 
-       LineRenderer beamLR = beamGO.GetComponent<LineRenderer>();
+       LineRenderer beamLR = beamGO.GetComponent&lt;LineRenderer&gt;();
        beamLR.material = beamMaterial;
        beamLR.material.SetColor("_TintColor", beamColor);
        beamLR.startWidth = startBeamWidth;
@@ -184,8 +188,8 @@ public void Beam()
        int reflections = 0;
 
        // 도탄 빔이 반사되는 모든 좌표
-       reflectionPoints = new List<Vector3>();
-       reflectionHitObjects = new List<GameObject>();
+       reflectionPoints = new List&lt;Vector3&gt;();
+       reflectionHitObjects = new List&lt;GameObject&gt;();
 
        // 첫번째 좌표 저장
        reflectionPoints.Add(raycastStartSpot.position);
@@ -239,7 +243,7 @@ public void Beam()
            reflectionPoints.Add(nextPoint);
            reflectionHitObjects.Add(hit.transform.gameObject);
 
-       } while (keepReflecting && reflections < maxReflections && reflect && (reflectionMaterial == null || (FindMeshRenderer(hit.collider.gameObject) != null && FindMeshRenderer(hit.collider.gameObject).sharedMaterial == reflectionMaterial)));
+       } while (keepReflecting &amp;&amp; reflections &lt; maxReflections &amp;&amp; reflect &amp;&amp; (reflectionMaterial == null || (FindMeshRenderer(hit.collider.gameObject) != null &amp;&amp; FindMeshRenderer(hit.collider.gameObject).sharedMaterial == reflectionMaterial)));
 
        // 라인 렌더러 빔의 각 좌표 위치값 설정
        //beamLR.SetVertexCount(reflectionPoints.Count);
@@ -251,11 +255,10 @@ public void Beam()
        */
    }
 
-   ```
+</code></pre></div></div>
 
-#### 가속도 값 계산 (리볼버 장전 홀더 탈착 가속도 계산)
-   ```
-   public Vector3 LinearAcceleration(out Vector3 vector, Vector3 position, int samples){
+<h4 id="가속도-값-계산-리볼버-장전-홀더-탈착-가속도-계산">가속도 값 계산 (리볼버 장전 홀더 탈착 가속도 계산)</h4>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>   public Vector3 LinearAcceleration(out Vector3 vector, Vector3 position, int samples){
 		Vector3 averageSpeedChange = Vector3.zero;
 		Vector3 averageVelocity = Vector3.zero;
 		vector = Vector3.zero;
@@ -266,7 +269,7 @@ public void Beam()
 
         // 샘플 양을 고정, 가속도 계산을 하려면 적어도 두가지 변화가 필요
         // 속도가 빠르면 최소 3가지 이상의 위치 샘플이 필요
-		if(samples < 3){
+		if(samples &lt; 3){
 
 			samples = 3;
 		}
@@ -278,7 +281,7 @@ public void Beam()
 		}
 
         // 위치 및 시간 샘플 값을 배열에 저장
-		for(int i = 0; i < positionRegister.Length - 1; i++){
+		for(int i = 0; i &lt; positionRegister.Length - 1; i++){
 
 			positionRegister[i] = positionRegister[i+1];
 			posTimeRegister[i] = posTimeRegister[i+1];
@@ -289,10 +292,10 @@ public void Beam()
 		positionSamplesTaken++;
 
 		// 가속도는 충분한 샘플을 얻었을 때만 계산 가능
-		if(positionSamplesTaken >= samples){
+		if(positionSamplesTaken &gt;= samples){
 
 			//평균 속도 변화를 계산
-			for(int i = 0; i < positionRegister.Length - 2; i++){
+			for(int i = 0; i &lt; positionRegister.Length - 2; i++){
 
 				deltaDistance = positionRegister[i+1] - positionRegister[i];
 				deltaTime = posTimeRegister[i+1] - posTimeRegister[i];
@@ -338,19 +341,5 @@ public void Beam()
 			return Vector3.zero;
 		}
 	}
-```
-
-### 스크린 샷
-
-<img src="https://user-images.githubusercontent.com/49055264/86313672-ac310f00-bc60-11ea-9e07-789b5975c656.png" style="float: left;  margin-right: 20px; margin-bottom: 10px" width="450px" height="300px"><br/>
-
-<img src="https://user-images.githubusercontent.com/49055264/86313678-adfad280-bc60-11ea-90b0-28f9708556f0.png" style="float: left;  margin-right: 20px; margin-bottom: 10px" width="450px" height="300px"><br/>
-
-<img src="https://user-images.githubusercontent.com/49055264/86313681-ae936900-bc60-11ea-97e7-19d25e62b6e5.png" style="float: left;  margin-right: 20px; margin-bottom: 10px" width="450px" height="300px"><br/>
-
-<img src="https://user-images.githubusercontent.com/49055264/86313682-ae936900-bc60-11ea-99f4-85e0265b94ee.png" style="float: left;  margin-right: 20px; margin-bottom: 10px" width="450px" height="300px"><br/>
-
-<img src="https://user-images.githubusercontent.com/49055264/86313687-af2bff80-bc60-11ea-8663-1389a35047b7.png" style="margin-right: 20px; margin-bottom: 10px" width="450px" height="300px"><br/>
-
-### 발표 문서
-- [참고 링크](https://drive.google.com/file/d/1GspJt_RMxemqi3acA1pPHIJnRSlfREdh/view?usp=sharing)
+</code></pre></div></div>
+:ET
