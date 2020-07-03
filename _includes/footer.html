@@ -21,11 +21,17 @@
             {% include icon-github.html username=site.github_username %}
           </li>
           {% endif %}
+
+          {% if site.email %}
+          <li>
+            {% include icon-email.html email=site.email %}
+          </li>
+          {% endif %}
         </ul>
       </div>
 
       <div class="footer-col footer-col-3 site-description">
-        <p>{{ site.description }}</p>
+        <p>Thank you for comming!</p>
       </div>
     </div>
 
