@@ -1,20 +1,26 @@
 // Post listing
 .category-title {
-  clear:left;
   padding-top: $padding-small*2;
-  text-align:left;
-  font-weight: 400;
+  margin-bottom: -2px;
   text-transform: uppercase;
-  letter-spacing: 3px;
-  text-indent: 3px;
-  font-size: 18px;
+  letter-spacing: 2px;
+  text-indent: 2px;
+  font-family: "PT Sans";
+  font-size: 12px;
+  text-align:center;
 }
+
 .c-posts-list {
-  clear:left;
   padding-bottom: $padding-small*1.5;
   li{
     a{
       font-weight: bold;
     }
   }
+}
+
+.c-postContent {
+  padding-top: 1.5em;
+  font-size: 14px;
+  text-align: center;
 }

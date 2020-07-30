@@ -3,21 +3,22 @@ layout: default
 ---
 
 <ul class="category-title"><h1>{{page.title}}</h1></ul>
+
 <ul class="c-posts-list">
   {% assign category = page.category | default: page.title %}
   {% for post in site.categories[category] %}
-    <li>
-      <h3>
-        <a href="{{ site.baseurl }}{{ post.url }}">
-          {{ post.title }}
-        </a>
-        <small>{{ post.date | date_to_string }}</small>
-      </h3>
-    </li>
-
-    <div class="postExt">
-   {{ post.content | strip_html | truncate:120}}
-    </div>
-
+    <div class="post postContent">
+      <div  class="postDate"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
+      </div>
+      <div class="postTag">
+        {{post.tag}}
+      </div>
+      <br>
+      <div class="postTitle">
+      <a class='postLink' href="{{site.url}}{{site.baseurl}}{{post.url}}">{{post.title}}</a>
+      </div>
+      <div class="postExt">
+     {{ post.content | strip_html | truncate:120}}
+      </div>
   {% endfor %}
 </ul>
