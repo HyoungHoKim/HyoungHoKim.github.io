@@ -1,0 +1,57 @@
+I"�<p>프로그래머스 코딩테스트 연습문제입니다. Sort를 이용해서 해봤더니 에러가 나서 다른 방법으로 풀었습니다. 다른 사람 풀이를 보니 같은 방식으로 풀었더군요… 뭔가 오타가 나거나 문제가 있었던 것 같습니다. ASCII코드 개념과 Sort함수에 대해 알면 간단히 풀 수 있습니다. 추가로 greater<자료형>() : 내림차순, less<자료형>() : 오름차순을 사용하면 더욱 편리합니다.</자료형></자료형></p>
+
+<h3 id="문제-설명">문제 설명</h3>
+<p>문자열 s에 나타나는 문자를 큰것부터 작은 순으로 정렬해 새로운 문자열을 리턴하는 함수, solution을 완성해주세요.
+s는 영문 대소문자로만 구성되어 있으며, 대문자는 소문자보다 작은 것으로 간주합니다.</p>
+
+<h3 id="제한-사항">제한 사항</h3>
+<ul>
+  <li>str은 길이 1 이상인 문자열입니다.</li>
+</ul>
+
+<h3 id="풀이">풀이</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+// 간편한 방식의 풀이
+
+#include &lt;string&gt;
+#include &lt;vector&gt;
+#include &lt;algorithm&gt;
+
+using namespace std;
+
+string solution(string s) {
+    string answer = "";
+
+    sort(s.begin(), s.end(), greater&lt;int&gt;());
+
+    answer = s;
+
+    return answer;
+}
+
+//답은 맞지만 요상한 풀이...
+
+bool comp(int a, int b){
+    return a &gt; b;
+}
+
+string solution(string s) {
+    string answer = "";
+    int len = s.length();
+    vector&lt;int&gt; temp;
+
+    for(int i = 0; i &lt; len; i++){
+        temp.push_back((int)s[i]);
+    }
+
+    sort(temp.begin(), temp.end(), comp);
+
+    for(int i = 0; i &lt; len; i++){
+        answer.push_back((char)temp[i]);
+    }
+
+    return answer;
+}
+</code></pre></div></div>
+:ET
