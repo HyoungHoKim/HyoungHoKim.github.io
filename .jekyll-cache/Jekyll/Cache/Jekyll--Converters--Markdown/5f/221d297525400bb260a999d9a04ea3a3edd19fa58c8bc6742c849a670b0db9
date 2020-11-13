@@ -1,0 +1,38 @@
+I"�<p>프로그래머스 코딩테스트 연습문제입니다. 딱히 설명이 필요없는 문제입니다.</p>
+
+<h3 id="문제-설명">문제 설명</h3>
+<p>함수 solution은 정수 n을 매개변수로 입력받습니다. n의 각 자릿수를 큰것부터 작은 순으로 정렬한 새로운 정수를 리턴해주세요. 예를들어 n이 118372면 873211을 리턴하면 됩니다.</p>
+
+<h3 id="제한-조건">제한 조건</h3>
+<ul>
+  <li>n은 1이상 8000000000 이하인 자연수입니다.</li>
+</ul>
+
+<h3 id="풀이">풀이</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#include &lt;string&gt;
+#include &lt;vector&gt;
+#include &lt;algorithm&gt;
+
+using namespace std;
+
+long long solution(long long n) {
+    long long answer = 0;
+    string str = to_string(n);
+    vector&lt;int&gt; temp;
+
+    for(int i = 0; i &lt; str.length(); i++){
+        temp.push_back(str[i] - '0');
+    }
+
+    sort(temp.begin(), temp.end(), less&lt;int&gt;());
+
+    for(int i = temp.size() - 1; i &gt;= 0; i--){
+        answer += pow(10, i) * (int)temp[i];
+    }
+
+
+    return answer;
+}
+</code></pre></div></div>
+:ET

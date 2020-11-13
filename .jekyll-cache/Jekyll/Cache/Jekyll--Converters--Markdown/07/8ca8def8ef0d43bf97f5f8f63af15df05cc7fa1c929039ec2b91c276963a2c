@@ -1,0 +1,49 @@
+I"�<p>프로그래머스 코딩테스트 연습문제입니다. 자리 수 판별과 %, / 연산자를 잘 이용하면 풀 수 있는 쉬운 문제입니다.</p>
+
+<h3 id="문제-설명">문제 설명</h3>
+<p>양의 정수 x가 하샤드 수이려면 x의 자릿수의 합으로 x가 나누어져야 합니다. 예를 들어 18의 자릿수 합은 1+8=9이고, 18은 9로 나누어 떨어지므로 18은 하샤드 수입니다. 자연수 x를 입력받아 x가 하샤드 수인지 아닌지 검사하는 함수, solution을 완성해주세요.</p>
+
+<h3 id="제한-조건">제한 조건</h3>
+<ul>
+  <li>x는 1 이상, 10000 이하인 정수입니다.</li>
+</ul>
+
+<h3 id="풀이">풀이</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#include &lt;string&gt;
+#include &lt;vector&gt;
+
+using namespace std;
+
+int getSum(int x){
+
+    int sum = 0;
+
+    while(x &gt; 9){
+
+        sum += (x%10);           
+        x /= 10;
+    }
+
+    sum += x;
+
+    return sum;
+}
+
+bool solution(int x) {
+    bool answer = true;
+    int sum = 0;
+
+    if(x &lt; 10) answer = true;
+    else{
+
+        sum = getSum(x);
+
+        if(x%sum == 0) answer = true;
+        else answer = false;
+    }
+
+    return answer;
+}
+</code></pre></div></div>
+:ET

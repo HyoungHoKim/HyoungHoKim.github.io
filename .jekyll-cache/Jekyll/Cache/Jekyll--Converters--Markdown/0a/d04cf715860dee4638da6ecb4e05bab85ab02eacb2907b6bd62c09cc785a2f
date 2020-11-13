@@ -1,0 +1,157 @@
+I"�<p>프로그래머스 코딩테스트 연습문제입니다. 여러가지 방법을 시도해보다 시간이 너무 걸려서 힌트를 얻기 위해 질문 목록을 봤습니다. 이 문제의 풀이법으로 많은 사람들이 DFS를 많이 사용하는 듯 했습니다. 구글링을 통해 DFS(깊이 우선 탐색)와 그와 함께 나오는 BFS(넓이 우선 탐색)에 대해 공부했습니다. 적절한 방법이였고 수월하게 문제를 풀 수 있었습니다. 하지만 채점 시스템의 문제인지 잘 모르겠지만 전역변수로 선언한 한 변수가 문제였습니다. 그 변수를 solution 함수 내에서 선언하고 초기화 해주었더니 통과됐습니다.</p>
+
+<p>DFS를 만드는 방법으로 크게 재귀와 스택을 이용합니다. BFS는 큐를 이용해 만듭니다. 재귀와 스택을 이용한 버전과 BFS를 이용해서도 풀어봤습니다.</p>
+
+<h4 id="문제-설명">문제 설명</h4>
+<h3 id="카카오-프렌즈-컬러링북">카카오 프렌즈 컬러링북</h3>
+<p>출판사의 편집자인 어피치는 네오에게 컬러링북에 들어갈 원화를 그려달라고 부탁하여 여러 장의 그림을 받았다. 여러 장의 그림을 난이도 순으로 컬러링북에 넣고 싶었던 어피치는 영역이 많으면 색칠하기가 까다로워 어려워진다는 사실을 발견하고 그림의 난이도를 영역의 수로 정의하였다. (영역이란 상하좌우로 연결된 같은 색상의 공간을 의미한다.)</p>
+
+<p>그림에 몇 개의 영역이 있는지와 가장 큰 영역의 넓이는 얼마인지 계산하는 프로그램을 작성해보자.</p>
+
+<p>위의 그림은 총 12개 영역으로 이루어져 있으며, 가장 넓은 영역은 어피치의 얼굴면으로 넓이는 120이다.</p>
+
+<h4 id="입력-형식">입력 형식</h4>
+<p>입력은 그림의 크기를 나타내는 m과 n, 그리고 그림을 나타내는 m × n 크기의 2차원 배열 picture로 주어진다. 제한조건은 아래와 같다.</p>
+<ul>
+  <li>1 &lt;= m, n &lt;= 100</li>
+  <li>picture의 원소는 0 이상 2^31 - 1 이하의 임의의 값이다.</li>
+  <li>picture의 원소 중 값이 0인 경우는 색칠하지 않는 영역을 뜻한다.</li>
+</ul>
+
+<h4 id="출력-형식">출력 형식</h4>
+<ul>
+  <li>리턴 타입은 원소가 두 개인 정수 배열이다. 그림에 몇 개의 영역이 있는지와 가장 큰 영역은 몇 칸으로 이루어져 있는지를 리턴한다.</li>
+</ul>
+
+<h3 id="풀이">풀이</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#include &lt;vector&gt;
+#include &lt;stack&gt;
+#include &lt;queue&gt;
+
+using namespace std;
+
+int sizeCnt;
+int maxX;
+int maxY;
+vector&lt;int&gt; dirX;
+vector&lt;int&gt; dirY;
+
+// 재귀을 이용한 DFS
+void dfs(int y, int x, vector&lt;vector&lt;int&gt;&gt; picture, vector&lt;vector&lt;bool&gt;&gt;&amp; visited){
+
+    int nx, ny;
+
+    sizeCnt++;
+    visited[y][x] = true;
+
+    for(int i = 0; i &lt; 4; i++){
+
+        nx = x + dirX[i];
+        ny = y + dirY[i];
+
+        if(nx &gt;= 0 &amp;&amp; nx &lt; maxX &amp;&amp; ny &gt;= 0 &amp;&amp; ny &lt; maxY){
+
+           if(picture[ny][nx] == picture[y][x] &amp;&amp; visited[ny][nx] != true)
+               dfs(ny, nx, picture, visited);
+
+        }
+    }
+}
+
+//스택을 이용한 DFS
+void StackDFS(int y, int x, vector&lt;vector&lt;int&gt;&gt; picture, vector&lt;vector&lt;bool&gt;&gt;&amp; visited){
+
+    stack&lt;pair&lt;int, int&gt;&gt; s;
+    s.push(make_pair(y, x));
+
+    sizeCnt++;
+    visited[y][x] = true;
+
+    while(!s.empty()){
+        int tempY = s.top().first;
+        int tempX = s.top().second;
+        s.pop();
+
+        for(int i = 0; i &lt; 4; i++){
+
+            int ny = tempY + dirY[i];
+            int nx = tempX + dirX[i];
+
+            if(nx &gt;= 0 &amp;&amp; nx &lt; maxX &amp;&amp; ny &gt;= 0 &amp;&amp; ny &lt; maxY){
+
+                if(picture[ny][nx] == picture[tempY][tempX] &amp;&amp; visited[ny][nx] != true){
+
+                    sizeCnt++;
+                    visited[ny][nx] = true;
+                    //s.push(make_pair(tempY, tempX));
+                    s.push(make_pair(ny, nx));
+                }
+            }
+        }
+    }
+}
+
+//BFS
+void BFS(int y, int x, vector&lt;vector&lt;int&gt;&gt; picture, vector&lt;vector&lt;bool&gt;&gt;&amp; visited){
+    queue&lt;pair&lt;int, int&gt;&gt; q;
+    q.push(make_pair(y, x));
+
+    visited[y][x] = true;
+    sizeCnt++;
+
+    while(!q.empty()){
+        int tempY = q.front().first;
+        int tempX = q.front().second;
+        q.pop();
+
+        for(int i = 0; i &lt; 4; i++){
+            int ny = tempY + dirY[i];
+            int nx = tempX + dirX[i];
+
+            if(nx &gt;= 0 &amp;&amp; nx &lt; maxX &amp;&amp; ny &gt;= 0 &amp;&amp; ny &lt; maxY){
+
+                if(picture[ny][nx] == picture[tempY][tempX] &amp;&amp; visited[ny][nx] != true){
+
+                    sizeCnt++;
+                    visited[ny][nx] = true;                
+                    q.push(make_pair(ny, nx));
+                }
+            }
+        }
+
+    }
+}
+
+// 전역 변수를 정의할 경우 함수 내에 초기화 코드를 꼭 작성해주세요.
+vector&lt;int&gt; solution(int m, int n, vector&lt;vector&lt;int&gt;&gt; picture) {
+    int number_of_area = 0;
+    int max_size_of_one_area = 0;
+
+    maxX = n;
+    maxY = m;
+    dirX = { -1, 0, 1, 0 };
+    dirY = { 0, -1, 0, 1 };
+
+    vector&lt;vector&lt;bool&gt;&gt; visited(m, vector&lt;bool&gt;(n, false));
+
+    for(int i = 0; i &lt; m; i++){
+        for(int j = 0; j &lt; n; j++){
+
+            if(picture[i][j] != 0 &amp;&amp; visited[i][j] != true){
+
+                sizeCnt = 0;
+                dfs(i, j, picture, visited);
+
+                number_of_area++;
+                if(max_size_of_one_area &lt; sizeCnt) max_size_of_one_area = sizeCnt;
+            }
+        }
+    }    
+
+    vector&lt;int&gt; answer(2);
+    answer[0] = number_of_area;
+    answer[1] = max_size_of_one_area;
+    return answer;
+}
+</code></pre></div></div>
+:ET

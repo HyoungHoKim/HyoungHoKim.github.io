@@ -1,0 +1,33 @@
+I"�<p>프로그래머스 코딩테스트 연습문제입니다. % 연산자와 / 연산자를 이용하면 됩니다. 조건을 잘못설정해 시간이 좀 걸렸습니다. 조건을 설정할 때는 한번 더 생각을 해봐야겠습니다.</p>
+
+<h3 id="문제-설명">문제 설명</h3>
+<p>자연수 N이 주어지면, N의 각 자릿수의 합을 구해서 return 하는 solution 함수를 만들어 주세요.
+예를들어 N = 123이면 1 + 2 + 3 = 6을 return 하면 됩니다.</p>
+
+<h3 id="제한사항">제한사항</h3>
+<ul>
+  <li>N의 범위 : 100,000,000 이하의 자연수</li>
+</ul>
+
+<h3 id="풀이">풀이</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#include &lt;iostream&gt;
+#include &lt;string&gt;
+
+using namespace std;
+int solution(int n)
+{
+    int answer = 0;
+
+    while(n &gt; 9){
+
+        answer += n%10;
+        n /= 10;
+    }
+
+    answer += n;
+
+    return answer;
+}
+</code></pre></div></div>
+:ET
