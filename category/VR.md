@@ -1,7 +1,7 @@
 ---
 layout: category
 title: PROJECTS/VR
-permalink: '/PROJECTS/VR'
+permalink: '/VR'
 ---
 
 Another sample category page.
