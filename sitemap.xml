@@ -1,469 +1,58 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-		<!--	created with www.mysitemapgenerator.com	-->
-		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-	<loc>https://hyounghokim.github.io/</loc>
-	<lastmod>2020-11-16T12:05:41+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/index.html</loc>
-	<lastmod>2020-11-16T12:05:42+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/PROJECTS</loc>
-	<lastmod>2020-11-16T12:05:45+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/PROJECTS/VR</loc>
-	<lastmod>2020-11-16T12:05:46+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/ALGORITHM</loc>
-	<lastmod>2020-11-16T12:05:46+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/ALGORITHM/PROGRAMMERS</loc>
-	<lastmod>2020-11-16T12:05:46+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/UNREAL</loc>
-	<lastmod>2020-11-16T12:05:46+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/unreal/2020/09/27/LDW_CPlus_CH15.html</loc>
-	<lastmod>2020-11-16T12:05:46+01:00</lastmod>
-	<priority>0.2</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/unreal/2020/09/25/LDW_CPlus_CH14.html</loc>
-	<lastmod>2020-11-16T12:05:47+01:00</lastmod>
-	<priority>0.2</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/09/22/L215.html</loc>
-	<lastmod>2020-11-16T12:05:47+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/09/22/L214.html</loc>
-	<lastmod>2020-11-16T12:05:47+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/09/22/L213.html</loc>
-	<lastmod>2020-11-16T12:05:47+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/projects/projects/vr/2020/07/01/Outcast.html</loc>
-	<lastmod>2020-11-16T12:05:52+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/projects/projects/vr/2020/05/10/MyStrongPonyPost.html</loc>
-	<lastmod>2020-11-16T12:05:53+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/09/14/L211.html</loc>
-	<lastmod>2020-11-16T12:05:53+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/09/13/L212.html</loc>
-	<lastmod>2020-11-16T12:05:53+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/09/13/L210.html</loc>
-	<lastmod>2020-11-16T12:05:53+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/09/09/L209.html</loc>
-	<lastmod>2020-11-16T12:05:53+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/09/06/L208.html</loc>
-	<lastmod>2020-11-16T12:05:53+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/09/04/L207.html</loc>
-	<lastmod>2020-11-16T12:05:53+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/09/03/L206.html</loc>
-	<lastmod>2020-11-16T12:05:54+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/09/03/L205.html</loc>
-	<lastmod>2020-11-16T12:05:54+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/09/01/L204.html</loc>
-	<lastmod>2020-11-16T12:05:54+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/08/31/L202.html</loc>
-	<lastmod>2020-11-16T12:05:54+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/08/30/L203.html</loc>
-	<lastmod>2020-11-16T12:05:54+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/08/25/L201.html</loc>
-	<lastmod>2020-11-16T12:05:54+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/08/25/L138.html</loc>
-	<lastmod>2020-11-16T12:05:54+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/08/24/L139.html</loc>
-	<lastmod>2020-11-16T12:05:54+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/08/24/L135.html</loc>
-	<lastmod>2020-11-16T12:05:55+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/08/24/L136.html</loc>
-	<lastmod>2020-11-16T12:05:55+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/08/24/L137.html</loc>
-	<lastmod>2020-11-16T12:05:55+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/08/22/L134.html</loc>
-	<lastmod>2020-11-16T12:05:55+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/08/22/L133.html</loc>
-	<lastmod>2020-11-16T12:05:55+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/08/19/L132.html</loc>
-	<lastmod>2020-11-16T12:05:55+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/08/19/L131.html</loc>
-	<lastmod>2020-11-16T12:05:55+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/08/19/L130.html</loc>
-	<lastmod>2020-11-16T12:05:55+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/08/19/L129.html</loc>
-	<lastmod>2020-11-16T12:05:55+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/08/18/L128.html</loc>
-	<lastmod>2020-11-16T12:05:55+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/08/18/L127.html</loc>
-	<lastmod>2020-11-16T12:05:55+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/08/18/L126.html</loc>
-	<lastmod>2020-11-16T12:05:55+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/08/18/L125.html</loc>
-	<lastmod>2020-11-16T12:05:55+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/08/14/L124.html</loc>
-	<lastmod>2020-11-16T12:05:55+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/08/13/L123.html</loc>
-	<lastmod>2020-11-16T12:05:56+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/08/13/L122.html</loc>
-	<lastmod>2020-11-16T12:05:56+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/08/11/L121.html</loc>
-	<lastmod>2020-11-16T12:05:56+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/08/11/L116.html</loc>
-	<lastmod>2020-11-16T12:05:56+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/08/11/L118.html</loc>
-	<lastmod>2020-11-16T12:05:56+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/08/10/L117.html</loc>
-	<lastmod>2020-11-16T12:05:56+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/08/10/L120.html</loc>
-	<lastmod>2020-11-16T12:05:56+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/08/10/L119.html</loc>
-	<lastmod>2020-11-16T12:05:56+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/08/03/L115.html</loc>
-	<lastmod>2020-11-16T12:05:56+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/08/02/L114.html</loc>
-	<lastmod>2020-11-16T12:05:56+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/08/02/L113.html</loc>
-	<lastmod>2020-11-16T12:05:56+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/08/02/L112.html</loc>
-	<lastmod>2020-11-16T12:05:56+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/08/02/L111.html</loc>
-	<lastmod>2020-11-16T12:05:56+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/08/01/L110.html</loc>
-	<lastmod>2020-11-16T12:05:57+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/08/01/L109.html</loc>
-	<lastmod>2020-11-16T12:05:57+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/08/01/L108.html</loc>
-	<lastmod>2020-11-16T12:05:57+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/07/31/L106.html</loc>
-	<lastmod>2020-11-16T12:05:57+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/07/31/L107.html</loc>
-	<lastmod>2020-11-16T12:05:57+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/07/31/L105.html</loc>
-	<lastmod>2020-11-16T12:05:57+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/07/31/L104.html</loc>
-	<lastmod>2020-11-16T12:05:57+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/07/30/L102.html</loc>
-	<lastmod>2020-11-16T12:05:57+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/07/30/L103.html</loc>
-	<lastmod>2020-11-16T12:05:57+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/algorithm/algorithm/programmers/2020/07/30/L101.html</loc>
-	<lastmod>2020-11-16T12:05:57+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/unreal/2020/09/20/LDW_CPlus_CH13.html</loc>
-	<lastmod>2020-11-16T12:05:57+01:00</lastmod>
-	<priority>0.2</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/unreal/2020/09/14/LDW_CPlus_CH12.html</loc>
-	<lastmod>2020-11-16T12:05:57+01:00</lastmod>
-	<priority>0.2</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/unreal/2020/09/09/LDW_CPlus_CH11.html</loc>
-	<lastmod>2020-11-16T12:05:57+01:00</lastmod>
-	<priority>0.2</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/unreal/2020/09/03/LDW_CPlus_CH10.html</loc>
-	<lastmod>2020-11-16T12:05:58+01:00</lastmod>
-	<priority>0.2</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/unreal/2020/08/31/LDW_CPlus_CH9.html</loc>
-	<lastmod>2020-11-16T12:05:58+01:00</lastmod>
-	<priority>0.2</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/unreal/2020/08/26/LDW_CPlus_CH8.html</loc>
-	<lastmod>2020-11-16T12:05:58+01:00</lastmod>
-	<priority>0.2</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/unreal/2020/08/24/LDW_CPlus_CH7.html</loc>
-	<lastmod>2020-11-16T12:05:58+01:00</lastmod>
-	<priority>0.2</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/unreal/2020/08/22/LDW_CPlus_CH6.html</loc>
-	<lastmod>2020-11-16T12:05:58+01:00</lastmod>
-	<priority>0.2</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/unreal/2020/08/20/LDW_CPlus_CH5.html</loc>
-	<lastmod>2020-11-16T12:05:58+01:00</lastmod>
-	<priority>0.2</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/unreal/2020/08/19/LDW_CPlus_CH4.html</loc>
-	<lastmod>2020-11-16T12:05:58+01:00</lastmod>
-	<priority>0.2</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/unreal/2020/08/17/LDW_CPlus_CH3.html</loc>
-	<lastmod>2020-11-16T12:05:58+01:00</lastmod>
-	<priority>0.2</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/unreal/2020/08/17/LDW_CPlus_CH2.html</loc>
-	<lastmod>2020-11-16T12:05:58+01:00</lastmod>
-	<priority>0.2</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/unreal/2020/08/03/LDW_CPlus_CH1.html</loc>
-	<lastmod>2020-11-16T12:05:58+01:00</lastmod>
-	<priority>0.2</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/page2/</loc>
-	<lastmod>2020-11-16T12:05:58+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/page3/</loc>
-	<lastmod>2020-11-16T12:05:58+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/page4/</loc>
-	<lastmod>2020-11-16T12:05:58+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/page6/</loc>
-	<lastmod>2020-11-16T12:05:58+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/page7/</loc>
-	<lastmod>2020-11-16T12:05:59+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/page8/</loc>
-	<lastmod>2020-11-16T12:05:59+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/page9/</loc>
-	<lastmod>2020-11-16T12:05:59+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/page10/</loc>
-	<lastmod>2020-11-16T12:05:59+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/page11/</loc>
-	<lastmod>2020-11-16T12:05:59+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/page5/</loc>
-	<lastmod>2020-11-16T12:05:59+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/page12/</loc>
-	<lastmod>2020-11-16T12:05:59+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/page13/</loc>
-	<lastmod>2020-11-16T12:05:59+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/page15/</loc>
-	<lastmod>2020-11-16T12:05:59+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/managercomment/2020/05/03/welcome.html</loc>
-	<lastmod>2020-11-16T12:05:59+01:00</lastmod>
-	<priority>0.2</priority>
-</url>
-<url>
-	<loc>https://hyounghokim.github.io/page14/</loc>
-	<lastmod>2020-11-16T12:05:59+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
+---
+layout: null
+sitemap:
+exclude: 'yes'
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    {% for post in site.posts %}
+    {% unless post.published == false %}
+    <url>
+      <loc>{{ site.url }}{{ post.url }}</loc>
+      {% if post.sitemap.lastmod %}
+        <lastmod>{{ post.sitemap.lastmod | date: "%Y-%m-%d" }}</lastmod>
+      {% elsif post.date %}
+        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+      {% else %}
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+      {% endif %}
+      {% if post.sitemap.changefreq %}
+        <changefreq>{{ post.sitemap.changefreq }}</changefreq>
+      {% else %}
+        <changefreq>monthly</changefreq>
+      {% endif %}
+      {% if post.sitemap.priority %}
+        <priority>{{ post.sitemap.priority }}</priority>
+      {% else %}
+        <priority>0.5</priority>
+      {% endif %}
+    </url>
+    {% endunless %}
+  {% endfor %}
+  {% for page in site.pages %}
+    {% unless page.sitemap.exclude == "yes" %}
+      {% unless page.url contains 'index.html' %}
+      <url>
+        <loc>{{ site.url }}{{ page.url | remove: "index.html" }}</loc>
+        {% if page.sitemap.lastmod %}
+          <lastmod>{{ page.sitemap.lastmod | date: "%Y-%m-%d" }}</lastmod>
+        {% elsif page.date %}
+          <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
+        {% else %}
+          <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+        {% endif %}
+        {% if page.sitemap.changefreq %}
+          <changefreq>{{ page.sitemap.changefreq }}</changefreq>
+        {% else %}
+          <changefreq>monthly</changefreq>
+        {% endif %}
+        {% if page.sitemap.priority %}
+          <priority>{{ page.sitemap.priority }}</priority>
+        {% else %}
+          <priority>0.3</priority>
+        {% endif %}
+      </url>
+      {% endunless %}
+    {% endunless %}
+  {% endfor %}
 </urlset>
