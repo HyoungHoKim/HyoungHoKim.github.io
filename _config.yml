@@ -10,7 +10,7 @@ title: HH.CODING
 email: dkdemfp2@naver.com
 description: VR and Unity and many other tries..
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://hyounghokim.github.io" # the base hostname & protocol for your site
+url: "http://hyounghokim.github.io/" # the base hostname & protocol for your site
 github_username:  HyoungHoKim
 paginate: 5
 theme-dark: false #Set to true to change to dark website theme
