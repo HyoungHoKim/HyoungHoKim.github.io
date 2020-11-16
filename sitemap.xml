@@ -56,4 +56,3 @@ exclude: 'yes'
     {% endunless %}
   {% endfor %}
 </urlset>
-</urlset>
