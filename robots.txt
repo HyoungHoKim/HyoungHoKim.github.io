@@ -1,3 +1,4 @@
 User-agent: *
  Allow: /
- Sitemap: http://hyounghokim.github.io/sitemap.xml
+
+ Sitemap: https://hyounghokim.github.io/sitemap.xml
