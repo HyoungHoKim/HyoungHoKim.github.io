@@ -1,0 +1,83 @@
+I"�	<p>프로그래머스 코딩테스트 연습문제입니다. 월 마다 일 수와 윤년이 뭔지 알아야 풀 수 있습니다. 윤년은 2월 29일이 되는 달로 원래 2월이 28일에서 29일로 늘어났기 때문에 윤년은 총 366일이 되는 해입니다.</p>
+
+<h3 id="문제-설명">문제 설명</h3>
+<p>2016년 1월 1일은 금요일입니다. 2016년 a월 b일은 무슨 요일일까요? 두 수 a ,b를 입력받아 2016년 a월 b일이 무슨 요일인지 리턴하는 함수, solution을 완성하세요. 요일의 이름은 일요일부터 토요일까지 각각 SUN,MON,TUE,WED,THU,FRI,SAT</p>
+
+<p>입니다. 예를 들어 a=5, b=24라면 5월 24일은 화요일이므로 문자열 TUE를 반환하세요.</p>
+
+<h3 id="제한-조건">제한 조건</h3>
+<ul>
+  <li>2016년은 윤년입니다.</li>
+  <li>2016년 a월 b일은 실제로 있는 날입니다. (13월 26일이나 2월 45일같은 날짜는 주어지지 않습니다)</li>
+</ul>
+
+<h3 id="풀이">풀이</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    #include &lt;string&gt;
+    #include &lt;vector&gt;
+
+    using namespace std;
+
+    // 전 달까지의 총 날짜 수를 세는 함수입니다.
+    int DayCount(int a){
+
+        int dayCount = 0;
+
+        for(int i = 1; i &lt; a; i++){
+
+            if(i == 2){
+
+                dayCount += 29;
+
+            }else if(i &lt;= 7){
+
+                if(i%2 == 0) dayCount += 30;
+                else dayCount += 31;
+            }
+            else{
+
+                if(i%2 == 0) dayCount += 31;
+                else dayCount += 30;
+            }
+        }
+
+        return dayCount;
+    }
+
+    string solution(int a, int b) {
+
+        string answer = "";
+
+        // 총 일수
+        int dayCount = DayCount(a) + b;
+
+        // 요일 구하기
+        switch(dayCount%7){
+
+            case 1:
+                answer = "FRI";
+                break;
+            case 2:
+                answer ="SAT";
+                break;
+            case 3:
+                answer ="SUN";
+                break;
+            case 4:
+                answer = "MON";
+                break;
+            case 5:
+                answer = "TUE";
+                break;
+            case 6:
+                answer = "WED";
+                break;
+            case 0:
+                answer = "THU";
+                break;
+        }
+
+        return answer;
+    }
+</code></pre></div></div>
+:ET

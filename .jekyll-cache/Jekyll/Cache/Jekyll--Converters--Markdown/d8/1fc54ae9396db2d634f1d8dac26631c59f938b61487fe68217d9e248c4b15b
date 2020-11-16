@@ -1,0 +1,28 @@
+I"�<p>프로그래머스 코딩테스트 연습문제입니다. 딱히 설명이 필요없는 문제입니다.</p>
+
+<h3 id="문제-설명">문제 설명</h3>
+<p>함수 solution은 정수 x와 자연수 n을 입력 받아, x부터 시작해 x씩 증가하는 숫자를 n개 지니는 리스트를 리턴해야 합니다. 다음 제한 조건을 보고, 조건을 만족하는 함수, solution을 완성해주세요.</p>
+
+<h3 id="제한-조건">제한 조건</h3>
+<ul>
+  <li>x는 -10000000 이상, 10000000 이하인 정수입니다.</li>
+  <li>n은 1000 이하인 자연수입니다.</li>
+</ul>
+
+<h3 id="풀이">풀이</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#include &lt;string&gt;
+#include &lt;vector&gt;
+
+using namespace std;
+
+vector&lt;long long&gt; solution(int x, int n) {
+    vector&lt;long long&gt; answer;
+
+    for(int i = 1; i &lt;= n; i++){
+        answer.push_back(x * i);        
+    }
+
+    return answer;
+}
+</code></pre></div></div>
+:ET
