@@ -1,7 +1,7 @@
 ---
 layout: category
 title: ALGORITHM/PROGRAMMERS
-permalink: '/PROGRAMMERS'
+permalink: '/ALGORITHM/PROGRAMMERS'
 ---
 
 Another sample category page.
