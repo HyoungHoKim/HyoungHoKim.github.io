@@ -3,6 +3,7 @@ layout: post
 title:  "My Strong Horse"
 date:   2020-05-10 22:15:31 +0900
 categories: [PROJECTS, PROJECTS/VR]
+comments: true
 ---
 
 
