@@ -19,7 +19,4 @@ plugins: [jekyll-paginate, kramdown]
 # Build settings
 markdown: kramdown
 google_analytics: 'G-WPJ7RZNZTE'
-comments:
-    provider: "disqus"
-    disqus:
-        shortname: hyounghokim-github-io
+disqus-shortname: hyounghokim-github-io
