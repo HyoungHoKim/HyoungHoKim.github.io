@@ -27,10 +27,8 @@ layout: default
     {{ content }}
   </div>
 
-  { % if page.comments %}
-  <div id="post-disqus" class="container">
-  { % include disqus.html %}
-  </div>
+  { % if page.comments != false %}
+    { % include disqus.html %}
   { % endif %}
 
   <footer class="postNavigation">
