@@ -19,3 +19,4 @@ plugins: [jekyll-paginate, kramdown]
 # Build settings
 markdown: kramdown
 google_analytics: 'G-WPJ7RZNZTE'
+disqus: hyounghokim-github-io
