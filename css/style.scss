@@ -160,7 +160,7 @@ a {
  * Blockquotes
  */
 blockquote {
-    border-left: 2px solid;
+    border-left: 4px solid;
     padding-left: $spacing-unit / 2;
     font-size: 18px;
     letter-spacing: -1px;
@@ -346,8 +346,8 @@ pre {
   font-family: 'Josefin Sans';
 }
 .exclamationMark {
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 .site-navigation {
   text-transform: uppercase;
