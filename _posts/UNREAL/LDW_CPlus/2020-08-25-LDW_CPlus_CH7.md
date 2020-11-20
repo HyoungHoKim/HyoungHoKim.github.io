@@ -2,7 +2,7 @@
 layout: post
 title:  "이득우 C++ Chapter07"
 date:   2020-08-24 20:47:25 +0900
-categories: [UNREAL]
+categories: [UNREAL, UNREAL/LDW_CPLUS]
 ---
 
 이득우의 언리얼 C++ 게임 개발의 정석의 Chapter07 요약입니다.
@@ -49,4 +49,4 @@ void UABAnimInstance::NativeUpdateAnimation(float DeltaSeconds) {
 
 ### 점프의 구현
 - 점프 동작은 지형에 따라 체공 시간이 다르므로 지형을 고려해서 점프 기능을 구현 하려면 점프 동작을 도약, 체공, 착지로 나누고 상황에 맞게 애니메이션 재생 시간을 조절해줘야 한다.
-- 애니메이션 재생을 모두 종료하고 스테이트를 이동하는 경우에는 트랜지션의 로직을 구현할 필요 없이 트랜지션 노드에서 제공하는 Automatic Rule Based On Sequence Player State 옵션을 체크하면 애니메이션 종료 시 자동으로 스테이트가 전환된다. 
+- 애니메이션 재생을 모두 종료하고 스테이트를 이동하는 경우에는 트랜지션의 로직을 구현할 필요 없이 트랜지션 노드에서 제공하는 Automatic Rule Based On Sequence Player State 옵션을 체크하면 애니메이션 종료 시 자동으로 스테이트가 전환된다.

@@ -2,7 +2,7 @@
 layout: post
 title:  "이득우 C++ Chapter09"
 date:   2020-09-01 00:48:42 +0900
-categories: [UNREAL]
+categories: [UNREAL, UNREAL/LDW_CPLUS]
 ---
 
 이득우의 언리얼 C++ 게임 개발의 정석의 Chapter09 요약입니다.
