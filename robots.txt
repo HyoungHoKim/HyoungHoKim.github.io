@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://hyounghokim.github.io/sitemap_list.xml
+Sitemap: https://hyounghokim.github.io/sitemap_index.xml
