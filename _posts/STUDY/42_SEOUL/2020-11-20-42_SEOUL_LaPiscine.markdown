@@ -2,7 +2,7 @@
 layout: post
 title:  "42_Seoul La Piscine 후기!"
 date:   2020-11-20 15:02:54 +0900
-categories: [LIFE, LIFE/42_SEOUL]
+categories: [STUDY, STUDY/42_SEOUL]
 ---
 
 42 서울, 라 피신 기간을 마치고 시간이 꽤 흘렀지만 한달 동안 달린 기억이 많이 남아서 간단한 기록이라도 남기고 싶었습니다. 무엇보다 현재 결과 발표를 기다리고 있는 만큼 합격을 기원하는 마음으로 후기 남깁니다!

@@ -1,7 +1,7 @@
 ---
 layout: category
-title: LIFE
-permalink: '/LIFE'
+title: STUDY
+permalink: '/STUDY'
 ---
 
 Another sample category page.
