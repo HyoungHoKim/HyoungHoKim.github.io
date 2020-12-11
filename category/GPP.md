@@ -1,6 +1,6 @@
 ---
 layout: category
-title: STUDY/42_SEOUL
+title: STUDY/GPP
 permalink: '/STUDY/GPP'
 ---
 
