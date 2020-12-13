@@ -1,0 +1,116 @@
+---
+layout: post
+title:  "게임 프로그래밍 패턴 Chapter_02"
+date:   2020-12-13 21:10:21 +0900
+categories: [STUDY, STUDY/GPP]
+---
+
+### Chapter 2 명령
+- 잘 쓰기만 하면 괴장히 지저분한 코드도 깔끔하게 정리할 수 있다.
+- **명령 패턴은 메서드 호출을 실체화한 것이다.**
+- '실체화'는 '실제하는 것으로 만든다'라는 뜻이다.
+- 프로그래밍 분야에서는 무엇인가를 '일급'으로 만든다는 뜻으로 통한다.
+- '실체화'니 '일급'이니 하는 말은 어떤 개념을 변수에 저장하거나 함수에 전달할 수 있도록 **데이터**, 즉 객체로 바꿀 수 있다는 걸 의미한다. 여기에서 명령 패턴을 '메서드 호출을 실체화한 것'이라고 한 것은 함수 호출을 객체로 감쌌다는 의미다.
+
+#### 2.1. 입력키 변경
+```
+void InputHandler::handleInput() {
+  if (isPressed(BUTTON_X)) jump();
+  else if (isPressed(BUTTON_Y)) fireGun();
+  else if (isPressed(BUTTON_A)) swapWeapon();
+  else if (isPressed(BUTTON_B)) lurchIneffectively();
+}
+```
+- 입력 키 변경을 불가능하게 만들겠다면 이래도 되겠지만, 많은 게임이 키를 바꿀 수 있게 해준다.
+- 키 변경을 지원하려면 jump()나 fireGun() 같은 함수를 직접 함수를 직접 호출하지 말고 교체 가능한 무엇인가로 바꿔야 한다.
+- 게임에서 할 수 있는 행동을 실행할 수 있는 공통 상위 클래스로 정의한다.
+  - 인터페이스에 반환 값이 없는 메서드 하나 밖에 없다면 명령 패턴일 가능성이 높다.
+```
+class Command {
+public:
+  virtual ~Command() {}
+  virtual void execute() = 0;
+};
+```
+- 이제 각 행동별로 하위 클래스를 만든다.
+```
+class JumpCommand : public Command {
+public:
+  virtual void execute () { jump(); }
+};
+
+class FireCommand : public Command {
+public:
+  virtual void execute () { fireGun(); }
+};
+```
+- 입력 핸들러 코드에는 각 버튼별로 Command 클래스 포인터로 저장한다.
+```
+class InputHandler {
+public:
+  void handleInput();
+  // 명령을 바인드할 메서드들...
+private:
+  Command* buttonX_;
+  Command* buttonY_;
+  Command* buttonA_;
+  Command* buttonB_;
+}
+```
+- 이제 입력 처리는 다음 코드로 위임된다.
+```
+void InputHandler::handleInput() {
+  if (isPressed(BUTTON_X)) buttonX_->execute();
+  else if (isPressed(BUTTON_Y)) buttonY_->execute();
+  else if (isPressed(BUTTON_A)) buttonA_->execute();
+  else if (isPressed(BUTTON_B)) buttonB_->execute();
+}
+```
+- 직접 함수를 호출하는 코드 대신에, 한 겹 우회하는 계층이 생겼다.
+
+#### 2.2. 액터에게 지시하기
+- 방금 정의한 Command 클래스는 한계가 있다. jump()나 fireGun() 같은 전역 함수가 플레이어 캐릭터를 암시적으로 찾아서 꼭두각시 인형처럼 움직이게 할 수 있다는 가정이 깔려 있다는 점에서 상당히 제한적이다.
+- 이렇게 커플링이 가정에 깔려 있다 보니 Command 클래스의 유용성이 떨어진다.
+- 현재 JumpCommand 클래스는 오직 플레이어 캐릭터만 점프하게 만들 수 있다. 이런 제약을 유연하게 만들기 위해 제어하려는 객체를 함수에서 직접 찾게 하지 말고 밖에서 전달해주자.
+```
+class Command {
+public:
+  virtual ~Command() {}
+  virtual void execute(GameActor& actor) = 0;
+};
+```
+- 여기서 GameActor는 게임 월드를 돌아다니는 캐릭터를 대표하는 '게임 객체' 클래스다.
+- Command를 상속받은 클래스는 execute()가 호출될 때 GameActor 객체를 인수로 받기 때문에 원하는 액터 메서드를 호출 할 수 있다.
+```
+class JumpCommand : public Command {
+public:
+  virtual void execute(GameActor& actor) {
+    actor.jump();
+  }
+};
+```
+- 이제 JumpCommand 클래스 하나로 게임에 등장하는 어떤 캐릭터라도 폴짝거리게 할 수 있다.
+- 남은 것은 입력 핸들러에서 입력을 받아 적당한 객체의 메서드를 호출하는 명령 객체를 연결하는 코드뿐이다. 먼저 handlerInput()에서 명령 객체를 **반환**하도록 변경한다.
+```
+Command* InputHandler::handlerInput() {
+  if (isPressed(BUTTON_X)) return buttonX_;
+  else if (isPressed(BUTTON_Y)) return buttonY_;
+  else if (isPressed(BUTTON_A)) return buttonA_;
+  else if (isPressed(BUTTON_B)) return buttonB_;
+
+  // 아무것도 누르지 않았다면, 아무것도 하지 않는다.
+}
+```
+- 어떤 액터를 매개변수로 넘겨줘야 할지 모르기 때문에 handleInput()에서는 명령을 실행할 수 없다. 여기에서는 실체화된 함수 호출이라는 점을 활용해서, 함수 호출 시점을 지연한다.
+- 다음으로 명령 객체를 받아서 플레이어를 대표하는 GameActor 객체에 적용하는 코드가 필요하다.
+```
+Command* command = inputHandler.handleInput();
+if (Command) {
+  command->execute(actor);
+}
+```
+- 명령과 액터 사이에 추상 계층을 한 단계 더 둔 덕분에, 소소한 기능이 하나 추가되었다.
+- **명령을 실행할 때 액터만 바꾸면 플레이어가 게임에 있는 어떤 액터라도 제어할 수 있게 되었다.**
+- 플레이어 이외에도 다른 캐릭터는 AI가 제어하는데, 같은 명령 패턴을 AI 엔진과 액터 사이에 인터페이스용으로 사용할 수 있다. 즉, AI 코드에서 원하는 Command 객체를 이용하는 식이다.
+- Command 객체를 선택하는 AI와 이를 실행하는 액터를 디커플링함으로써 코드가 훨씬 유연해졌다.
+- 액처를 제어하는 Command를 일급 객체로 만든 덕분에, 메서드를 직접 호출하는 형태의 강한 커플링을 제거할 수 있었다.
