@@ -36,7 +36,7 @@ categories: [UNREAL, UNREAL/OCULUS]
     - 메서드가 표준 컨트롤러 이동인 경우 플레이어가 썸스틱을 0이 아닌 위치에 두었는지 여부에 따라 루트를 선택할 겁니다.
     - 이 매크로는 'Axis Value'가 모든 프레임에서 실행되는 것을 방지할 뿐만 아니라 플레이어가 다른 이동을 선택했을 경우 나머지 이동도 막아줍니다.
 
-    
+
 <img src="https://user-images.githubusercontent.com/49055264/102004668-2a3c2a80-3d56-11eb-8a75-891e7c08c29c.PNG" ><br/>
 
 
@@ -49,7 +49,7 @@ categories: [UNREAL, UNREAL/OCULUS]
       - MotionControllerThumbLeft_Y 는 X와 동일하지만 Get Right Vector를 Get Forward Vector로 바꾸면 됩니다.
 
 
-<center><img src="https://user-images.githubusercontent.com/49055264/102004669-2c9e8480-3d56-11eb-90fb-773480c59e01.PNG"></center>
+<center><img src="https://user-images.githubusercontent.com/49055264/102004669-2c9e8480-3d56-11eb-90fb-773480c59e01.PNG"></center></br>
 
 
   - 카메라 회전은 Z값만 사용합니다. Map Range Clamped를 이용해 범위를 지정합니다.
@@ -64,7 +64,7 @@ categories: [UNREAL, UNREAL/OCULUS]
       - 필요할 때만 활성화됨.
 
 
-  <center><img src="https://user-images.githubusercontent.com/49055264/102004670-2dcfb180-3d56-11eb-8fca-e10849cde60d.PNG"></center>
+  <center><img src="https://user-images.githubusercontent.com/49055264/102004670-2dcfb180-3d56-11eb-8fca-e10849cde60d.PNG"></center></br>
 
 
 ### 팁
