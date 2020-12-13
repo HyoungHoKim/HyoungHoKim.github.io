@@ -49,7 +49,7 @@ categories: [UNREAL, UNREAL/OCULUS]
       - MotionControllerThumbLeft_Y 는 X와 동일하지만 Get Right Vector를 Get Forward Vector로 바꾸면 됩니다.
 
 
-<center><img src="https://user-images.githubusercontent.com/49055264/102004669-2c9e8480-3d56-11eb-90fb-773480c59e01.PNG"></br></center>
+<center><img src="https://user-images.githubusercontent.com/49055264/102004669-2c9e8480-3d56-11eb-90fb-773480c59e01.PNG"></center>
 
 
   - 카메라 회전은 Z값만 사용합니다. Map Range Clamped를 이용해 범위를 지정합니다.
@@ -64,7 +64,7 @@ categories: [UNREAL, UNREAL/OCULUS]
       - 필요할 때만 활성화됨.
 
 
-  <center><img src="https://user-images.githubusercontent.com/49055264/102004670-2dcfb180-3d56-11eb-8fca-e10849cde60d.PNG"></br></center>
+  <center><img src="https://user-images.githubusercontent.com/49055264/102004670-2dcfb180-3d56-11eb-8fca-e10849cde60d.PNG"></center>
 
 
 ### 팁
